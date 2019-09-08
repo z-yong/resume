@@ -1,0 +1,157 @@
+body,ul,li,p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    user-select: none;
+}
+#body{
+    background: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+@font-face{
+    font-family: 'FZZH-FLYYJW';
+    src: url('./FZZH-FLYYJW.TTF')
+}
+#body .navbar{
+    margin-bottom: 0;
+}
+.navbar-header .navbar-brand{
+    font-family: 'FZZH-FLYYJW';
+    font-size: 30px;
+}
+.jumbotron.add{
+    background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563559317997&di=d0856d1524865c6253aecb51fc98f201&imgtype=0&src=http%3A%2F%2Fb4-q.mafengwo.net%2Fs10%2FM00%2F22%2FBD%2FwKgBZ1ilAFyAS-QSAANuk_mq7nc79.jpeg%3FimageView2%2F2%2Fw%2F600%2Fh%2F600%2Fq%2F90');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    color: #fff;
+}
+.my-message{
+    position: relative;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px
+}
+.container h1{
+    margin-top: 0px
+}
+.container .send{
+    padding-bottom: 20px;
+    text-indent: 1em;
+    border-bottom: 2px solid #ccc;
+}
+.my-message p:nth-of-type(2){
+    margin-top: 50px;
+}
+.row .message{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-left: 20px
+}
+.message span{
+    position: absolute;
+    left: 200px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 22px;
+}
+.col-md-6.my-photo{
+    width: 40%;
+    margin-left: 80px
+}
+.my-photo img{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    border-radius: 10px
+}
+.row .thumbnail{
+    height: 320px;;
+}
+.thumbnail .center{
+    text-align: center;
+    color: #000;
+}
+.thumbnail .center p:nth-of-type(1){
+    color: #888;
+}
+.center .btn-primary{
+    width: 70px;
+    background: #333;
+    border: 1px solid #333;
+}
+.center .btn-primary:hover{
+    opacity: 0.7;
+    background: #333;
+    border: 1px solid #333;
+}
+.thumbnail .caption .youku{
+    width: 90px;
+}
+#main{
+    padding: 10px 0 30px;
+    margin-bottom: 30px
+}
+.back{
+    background: url('./img/bg2.jpg');
+    height: 70px;
+    font-size: 30px;
+    font-family: '楷体';
+    line-height: 70px;
+    margin: -30px 0 0 0 ;
+    text-indent: 1em;
+    color: #fff;
+}
+.skill-box{
+    position: relative;
+    padding: 20px 0;
+}
+.skill-box ul li{
+    height: 40px;
+    font-size: 16px;
+    color: #ddd;;
+}
+.skill-box .first{
+    margin-left: 60px;
+}
+.skill-box .last{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+#footer{
+    margin: 30px 0 0;
+    text-align: center;
+    background: #000;
+}
+#footer .footer-text{
+    padding: 20px;
+    margin: 0;
+    font-weight: 100
+}
+#footer span{
+    color: #444;
+}
+#footer a{
+    color: #bbb;
+}
+@media screen and (max-width:992px){
+    .col-md-6.my-photo{
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .my-photo img{
+        width: 70%;
+    }
+}
+@media screen and (max-width:768px){
+    .col-md-6.my-photo{
+        padding-bottom: 20px
+    }
+    
+}
