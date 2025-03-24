@@ -3,6 +3,12 @@ body,ul,li,p{
     padding: 0;
     list-style: none;
 }
+body ul {
+    margin-bottom: 0;
+}
+body p {
+    margin: 0;
+}
 img{
     user-select: none;
 }
@@ -102,26 +108,16 @@ img{
     font-size: 30px;
     font-family: '楷体';
     line-height: 70px;
-    margin: -30px 0 0 0 ;
     text-indent: 1em;
     color: #fff;
 }
 .skill-box{
-    position: relative;
-    padding: 20px 0;
+    padding: 20px 80px;
 }
 .skill-box ul li{
-    height: 40px;
+    line-height: 30px;
     font-size: 16px;
     color: #ddd;;
-}
-.skill-box .first{
-    margin-left: 60px;
-}
-.skill-box .last{
-    position: absolute;
-    top: 20px;
-    left: 400px;
 }
 #footer{
     margin: 30px 0 0;
